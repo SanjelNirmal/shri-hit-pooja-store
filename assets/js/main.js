@@ -4,7 +4,7 @@
 window.updateCart = async function(productId, action) {
     const csrfToken = document.getElementById('cart_action_csrf').value;
     try {
-        const response = await fetch('/api/update_cart.php', {
+        const response = await fetch('api/update_cart.php', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ product_id: productId, action: action, csrf_token: csrfToken })

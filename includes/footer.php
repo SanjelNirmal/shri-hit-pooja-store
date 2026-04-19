@@ -24,7 +24,7 @@
         &copy; <?php echo date('Y'); ?> Shri Hit Radhavallav Pooja Store. All Rights Reserved.
     </div>
 </footer>
-<script src="/assets/js/main.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
 
 </html>
